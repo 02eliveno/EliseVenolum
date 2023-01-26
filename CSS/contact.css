@@ -1,0 +1,178 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(251, 251, 237); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #1fc1c9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: rgb(251, 251, 237);
+    padding: 20px;
+  }
+  .header {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+body {margin: 0;
+      padding: 0;
+      font-family: 'Raleway', sans-serif;
+      align-items: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(251, 251, 237);
+    color: white
+}
+
+img{
+    margin: .5rem;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: rgb(251, 251, 237);
+
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(251, 251, 237);
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: rgb(251, 251, 237);
+    height: auto;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-content li {
+    list-style: none;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+    justify-content: center;
+    
+}
+
+.socials a{
+    text-decoration: none;
+    color: rgb(11, 0, 0);
+    align-items: center;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+}
+
+.socials a:hover i{
+    color: black;
+}
+
+.footer-bottom{
+    width:100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200px;
+}
+
